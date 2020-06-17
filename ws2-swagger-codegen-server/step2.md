@@ -13,7 +13,3 @@
 ### A partir de la correction du Lab #1
 
 `java -jar swagger-codegen-cli.jar generate -i lab-1-correction.yaml -l nodejs-server -o server/node`{{execute}}
-
-### Options disponibles pour la génération
-
-* [Documentation Github](https://github.com/swagger-api/swagger-codegen#generators)

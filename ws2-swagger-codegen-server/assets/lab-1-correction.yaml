@@ -1,14 +1,14 @@
 openapi: 3.0.1
 info:
-  title: Weather API - Coface Training
+  title: Weather API - Atos Training
   description: Weather REST API definition with examples
   contact:
-    name: Emmanuel GILLET
-    email: emmanuel.gillet.ext@Coface.com
+    name: Dorian BLANC
+    email: dorian.blanc@atos.net
   version: 0.1.2
 servers:
-  - url: http://my-json-server.typicode.com/dobl1/katacoda-atos-Coface
-  - url: https://my-json-server.typicode.com/dobl1/katacoda-atos-Coface
+  - url: http://my-json-server.typicode.com/Agirc-Arrco-Atos/API-Design-Labs
+  - url: https://my-json-server.typicode.com/Agirc-Arrco-Atos/API-Design-Labs
 paths:
   /cities:
     get:

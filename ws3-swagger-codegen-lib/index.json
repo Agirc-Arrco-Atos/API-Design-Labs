@@ -1,0 +1,55 @@
+{
+  "title": "Lab #3",
+  "description": "Générer une librairie (SDK) client à partir du fichier OpenAPI Spécification en utilisant Swagger CodeGen",
+  "difficulty": "Easy",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Langages supportés par CodeGen",
+        "text": "step1.md"
+      },
+      {
+        "title": "Générateur de librairies",
+        "text": "step2.md",
+        "courseData": "env-step-2.sh"
+      },
+      {
+        "title": "Inspecter le code produit",
+        "text": "step3.md",
+        "courseData": "env-step-3.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "env-init.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "your-spec.json",
+          "target": "~/"
+        },{
+          "file": "your-spec.yaml",
+          "target": "~/"
+        },{
+          "file": "lab-1-correction.yaml",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "hidefinish": true,
+    "showdashboard": true,
+    "dashboard": "Dashboard",
+    "uilayout": "editor-terminal"
+  },
+  
+  "backend": {
+    "imageid": "java8"
+  }
+}

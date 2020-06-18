@@ -1,0 +1,48 @@
+{
+  "title": "Leb #1",
+  "description": "Générer un server de mock avec Prism",
+  "difficulty": "Easy",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Installer Prism",
+        "text": "step1.md"
+      },
+      {
+        "title": "Démarrer le serveur de mock avec Prism",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "env-init.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "petstore.v1.yaml",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "petstore.v1.yaml",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "hidefinish": true,
+    "showdashboard": true,
+    "dashboards": [{"name": "Serveur de Mock", "port": 8080}],
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
